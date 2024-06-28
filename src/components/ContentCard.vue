@@ -71,6 +71,11 @@ export default class ContentCard extends Vue {
         border-bottom: 1px solid $rosewater;
         color: $rosewater;
         margin: auto auto 0.5rem 1rem;
+        transition: all 0.5s ease;
+
+        &:hover {
+            filter: drop-shadow(0px 0px 5px $rosewater);
+        }
     }
 
     details {
@@ -121,7 +126,7 @@ export default class ContentCard extends Vue {
             height: 22.5px;
             margin: 0 0 0 0.5rem;
             position: relative;
-            top: 0.25rem;
+            top: 0.33rem;
         }
 
         .icon-pending {
@@ -130,7 +135,7 @@ export default class ContentCard extends Vue {
             height: 22.5px;
             margin: 0 0 0 0.5rem;
             position: relative;
-            top: 0.25rem;
+            top: 0.33rem;
         }
     }
 
@@ -140,6 +145,11 @@ export default class ContentCard extends Vue {
         padding: 5px;
         margin: 1rem 1rem 0.5rem 1rem;
         width: calc(100% - 3rem);
+        transition: all 0.5s ease;
+
+        &:hover {
+            filter: drop-shadow(0px 0px 10px $yellow);
+        }
 
         p {
             margin-bottom: 0.5rem;
