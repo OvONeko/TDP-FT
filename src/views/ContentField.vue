@@ -27,18 +27,10 @@ export default class ContentField extends Vue {
 
 <style lang="less">
 .content-field {
-    //display: flex;
-    //flex-direction: row;
-    //flex-wrap: wrap;
-    //gap: 50px 20px;
-    //justify-items: start;
-    //align-items: start;
-    //justify-content: flex-start;
     column-count: 3;
     width: 100%;
     height: fit-content;
     max-width: 1293px;
-    //padding: 20px;
     margin: auto;
 
     .content-card {
