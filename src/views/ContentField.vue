@@ -1,6 +1,6 @@
 <script lang="ts">
 import {Content, Data} from "@/logic/data";
-import {fetchWithParams} from "@/logic/helper";
+import {fetchWithParams, shuffle} from "@/logic/helper";
 import {Vue, Component} from 'vue-facing-decorator';
 import ContentCard from "@/components/ContentCard.vue";
 
@@ -13,7 +13,7 @@ export default class ContentField extends Vue {
             .then(it => it.text())
             .then(it => {
                 console.log(it);
-                this.contents = (JSON.parse(it) as Data).content
+                this.contents = shuffle((JSON.parse(it) as Data).content)
             })
     }
 }
