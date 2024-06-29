@@ -21,7 +21,7 @@ export function fetchWithParams(input: URL | RequestInfo, init?: RequestInitWith
     }), init)
 }
 
-export function shuffle(array: Array<any>): any[] {
+export function gShuffle(array: Array<any>): any[] {
     let currentIndex = array.length
     const arr = array.slice()
 
