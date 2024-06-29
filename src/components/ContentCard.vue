@@ -53,6 +53,7 @@ export default class ContentCard extends Vue {
 
 <style lang="scss">
 @import '@/style/mocha.sass';
+@import '@/style/font.css';
 
 .content {
     display: flex;
@@ -80,6 +81,7 @@ export default class ContentCard extends Vue {
         border-bottom: 1px solid $rosewater;
         color: $rosewater;
         margin: auto auto 0.5rem 1rem;
+        font-family: 'Huiwen-mincho';
         transition: all 0.5s ease;
 
         &:hover {

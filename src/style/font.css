@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Huiwen-mincho";
+    src: url(./fonts/Huiwen_mingchao.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "PingFang SC";
+    src: url(./fonts/PingFang-SC-Regular.woff2) format("woff2");
+}
