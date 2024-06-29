@@ -1,0 +1,41 @@
+@import "./mocha.sass";
+
+.markdown {
+  color: $text;
+
+  .head {
+    color: $rosewater;
+    border-bottom: 1px solid $rosewater;
+  }
+
+  h1 {
+    @extend .head;
+
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    @extend .head;
+
+    font-size: 2rem;
+  }
+
+  h3, h4, h5, h6 {
+    color: $rosewater;
+    font-size: 1.5rem;
+  }
+
+  a {
+    color: $teal;
+
+    &:active {
+      color: $lavender;
+    }
+  }
+
+  blockquote {
+    background-color: $yellow-opacity;
+    border-left: 2px solid $yellow;
+    border-radius: 1em;
+  }
+}

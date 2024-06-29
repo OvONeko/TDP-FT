@@ -16,12 +16,12 @@ export default class ContentCard extends Vue {
             <summary>点击查看网络站点</summary>
             <a v-for="s in content.sites" :key="s"
                v-bind:href="s.replaceAll('(无法正常访问)', '').replaceAll('(推测而得)', '')">
-                <span><Icon class="icon-link-off" icon="uil:link-broken" v-if="s.includes('(无法正常访问)')"/></span>
-                <span><Icon class="icon-sync-off" icon="uil:sync-slash" v-if="s.includes('(推测而得)')"/></span>
+                <span><Icon class="icon-link-off" icon="uil:link-broken" v-if="s.includes('(无法正常访问)')" title="无法正常访问"/></span>
+                <span><Icon class="icon-sync-off" icon="uil:sync-slash" v-if="s.includes('(推测而得)')" title="推测而得"/></span>
                 <span>{{ s.replaceAll('(无法正常访问)', '').replaceAll('(推测而得)', '') }}</span>
             </a>
         </details>
-        <details v-if="content.locations.length > 0">
+        <details v-if="(content.locations.length > 0) && (!content.locations[0].includes('UNKNOWN'))">
             <summary>点击查看地址</summary>
             <p v-for="l in content.locations" :key="l" v-text="l"/>
         </details>
