@@ -20,5 +20,8 @@ body {
 #app {
     min-height: 100vh;
     min-width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 20px;
 }
 </style>
