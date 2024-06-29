@@ -36,7 +36,7 @@ export default class ContentCard extends Vue {
             </p>
             <details v-if="content.persecution.evidences.length > 0">
                 <summary>Evidences</summary>
-                <p v-for="v in content.persecution.evidences" :key="v" v-text="v"/>
+                <p v-for="v in content.persecution.evidences" :key="v" v-text="v" class="evidences-content"/>
             </details>
         </div>
         <hr/>
@@ -93,13 +93,15 @@ export default class ContentCard extends Vue {
         align-items: center;
         justify-content: flex-start;
         transition: all 0.5s ease;
+        margin: 2px 0;
 
         p {
             margin: 0 0 0 1rem;
+            color: $sky;
         }
 
         a {
-            margin: 0 0 0.25rem 1rem;
+            margin: 0 0 0 1rem;
             text-decoration: none;
             color: $teal;
 
@@ -131,6 +133,10 @@ export default class ContentCard extends Vue {
 
     .p-warning {
         color: $maroon !important;
+    }
+
+    .evidences-content {
+        color: $yellow !important;
     }
 
     p {
