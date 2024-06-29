@@ -64,9 +64,9 @@ export default class ContentCard extends Vue {
     height: fit-content;
     padding: 10px;
     border: 2px solid $flamingo;
-    border-radius: 10px;
+    border-radius: 15px;
     color: $text;
-    overflow: scroll;
+    overflow: hidden;
     transition: all 0.5s ease;
     background-color: $base;
     margin: 0 20px 50px 0;
