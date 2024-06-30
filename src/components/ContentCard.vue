@@ -42,7 +42,7 @@ export default class ContentCard extends Vue {
         <hr/>
         <p v-if="content.checked">
             <span><Icon class="icon-checked" icon="ion:checkmark-circle-sharp"/></span>
-            <span>已认证</span>
+            <span>已确认</span>
         </p>
         <p v-else>
             <span><icon class="icon-pending" icon="ion:help-circle-sharp"/></span>

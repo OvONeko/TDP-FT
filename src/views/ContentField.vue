@@ -11,7 +11,7 @@ export default class ContentField extends Vue {
     topHtml = topHtml;
 
     created() {
-        fetchWithParams('https://raw.githubusercontent.com/FunctionSir/TransDefenseProject/master/institute_list.json')
+        fetchWithParams('https://raw.githubusercontent.com/LS-KR/TransDefenseProject/master/institute_list.json')
             .then(it => it.text())
             .then(it => {
                 console.log(it);
