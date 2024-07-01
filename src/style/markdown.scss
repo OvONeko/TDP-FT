@@ -40,4 +40,10 @@
     border-left: 2px solid $yellow;
     border-radius: 1em;
   }
+
+  hr {
+    margin-top: 1rem;
+    border-image: repeating-linear-gradient(45deg, $red, $peach 10px, $yellow 20px, $green 40px, $teal 50px, $sky 60px, $blue, 70px, $lavender 80px, $mauve 90px, $red 100px) 1;
+    width: calc(100%);
+  }
 }
