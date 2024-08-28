@@ -6,6 +6,6 @@
 
 请勿将此项目用于迫害目的.
 
-数据来源: [FunctionSir/TransDefenseProject](https://github.com/FunctionSir/TransDefenseProject)
+数据来源: [FunctionSir/PanDefenseProject](https://github.com/FunctionSir/PanDefenseProject)
 
 ---
