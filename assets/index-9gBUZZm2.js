@@ -22,6 +22,14 @@ var ai=Object.defineProperty;var di=(e,t,n)=>t in e?ai(e,t,{enumerable:!0,config
 <p>本页面内容不保证时效性, 请自行斟酌.</p>
 <p>部分链接为推测而得或无法访问, 已在页面中作出标记.</p>
 <p>请勿将此项目用于迫害目的.</p>
-<p>数据来源: <a href="https://github.com/FunctionSir/TransDefenseProject">FunctionSir/TransDefenseProject</a></p>
+<p>数据来源: <a href="https://github.com/FunctionSir/PanDefenseProject">FunctionSir/PanDefenseProject</a></p>
+<hr>
+<h2>友联</h2>
+<p><a href="https://functionsir.github.io/PanDefenseProject/search.html">与岭提供的查询页面(通过本项目的GitHub Pages上线)</a></p>
+<p><a href="https://ovoneko.github.io/TDP-FT/">LS-KR提供的页面</a></p>
+<p><a href="https://unknown-list.0x7f.cc/">X(原推特)@YukariEwe提供的页面</a></p>
+<p><a href="https://xioi.github.io/save_trans/search.html">与岭提供的查询页面(通过与岭自己的GitHub Pages上线)</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Rjkmz-AIxcces74KK---tg5e-hIZiYgusUtLl2jfVUg/">@Michelle_Z2023与@HanazawaKane合作的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」</a></p>
+<p>在这里非常感谢各位的支持.</p>
 <hr>
 `;var Wf=Object.defineProperty,qf=Object.getOwnPropertyDescriptor,Gf=(e,t,n,s)=>{for(var o=s>1?void 0:s?qf(t,n):t,r=e.length-1,i;r>=0;r--)(i=e[r])&&(o=(s?i(t,n,o):i(o))||o);return s&&o&&Wf(t,n,o),o};let qn=class extends Ss{constructor(){super(...arguments);Tt(this,"contents",[]);Tt(this,"topHtml",zf)}created(){Bf("https://raw.githubusercontent.com/LS-KR/TransDefenseProject/master/institute_list.json").then(t=>t.text()).then(t=>{console.log(t),this.contents=Kf(JSON.parse(t).content)})}};qn=Gf([Cs({components:{ContentCard:ri}})],qn);const Jf=["innerHTML"],Qf={class:"content-field"};function Yf(e,t,n,s,o,r){const i=ri;return K(),J(se,null,[Q("div",{class:"head-message markdown",innerHTML:e.topHtml},null,8,Jf),Q("div",Qf,[(K(!0),J(se,null,Ze(e.contents,l=>(K(),Ct(i,{key:l,content:l,class:"content-card"},null,8,["content"]))),128))])],64)}const li=Os(qn,[["render",Yf]]);var Xf=Object.defineProperty,Zf=Object.getOwnPropertyDescriptor,ea=(e,t,n,s)=>{for(var o=s>1?void 0:s?Zf(t,n):t,r=e.length-1,i;r>=0;r--)(i=e[r])&&(o=(s?i(t,n,o):i(o))||o);return s&&o&&Xf(t,n,o),o};let Gn=class extends Ss{};Gn=ea([Cs({components:{ContentField:li}})],Gn);function ta(e,t,n,s,o,r){const i=li;return K(),Ct(i)}const na=Os(Gn,[["render",ta]]),ci=Lc(na);ci.use(kc());ci.mount("#app");
